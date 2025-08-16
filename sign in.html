@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sign In - Job Junction</title>
+  <style>
+    /* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  background: #f2f6fc;
+  color: #333;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+header {
+  background: #0077cc;
+  color: #fff;
+  text-align: center;
+  padding: 15px 10px;
+}
+
+header h1 {
+  font-size: 1.8rem;
+}
+
+main {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.signin-container {
+  background: #fff;
+  padding: 30px 25px;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+  width: 100%;
+  max-width: 400px;
+  text-align: center;
+}
+
+.signin-container h2 {
+  color: #0077cc;
+  margin-bottom: 20px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+}
+
+label {
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+input {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  margin-bottom: 15px;
+}
+
+button {
+  padding: 10px;
+  background: #0077cc;
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+button:hover {
+  background: #005fa3;
+}
+
+.extra {
+  margin-top: 15px;
+  font-size: 0.9rem;
+}
+
+.extra a {
+  color: #0077cc;
+  text-decoration: none;
+}
+
+.extra a:hover {
+  text-decoration: underline;
+}
+
+footer {
+  text-align: center;
+  padding: 12px;
+  background: #222;
+  color: #fff;
+  font-size: 0.9rem;
+}
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  background: #f2f6fc;
+  color: #333;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+header {
+  background: #0077cc;
+  color: #fff;
+  text-align: center;
+  padding: 15px 10px;
+}
+
+header h1 {
+  font-size: 1.8rem;
+}
+
+main {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.signin-container {
+  background: #fff;
+  padding: 30px 25px;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+  width: 100%;
+  max-width: 400px;
+  text-align: center;
+}
+
+.signin-container h2 {
+  color: #0077cc;
+  margin-bottom: 20px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+}
+
+label {
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+input {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  margin-bottom: 15px;
+}
+
+button {
+  padding: 10px;
+  background: #0077cc;
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+button:hover {
+  background: #005fa3;
+}
+
+.extra {
+  margin-top: 15px;
+  font-size: 0.9rem;
+}
+
+.extra a {
+  color: #0077cc;
+  text-decoration: none;
+}
+
+.extra a:hover {
+  text-decoration: underline;
+}
+
+footer {
+  text-align: center;
+  padding: 12px;
+  background: #222;
+  color: #fff;
+  font-size: 0.9rem;
+}
+
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Job Junction</h1>
+  </header>
+
+  <main>
+    <div class="signin-container">
+      <h2>Sign In</h2>
+      <form>
+        <label for="email">Email Address</label>
+        <input type="email" id="email" name="email" placeholder="Enter your email" required>
+
+        <label for="password">Password</label>
+        <input type="password" id="password" name="password" placeholder="Enter your password" required>
+
+        <button type="submit">Sign In</button>
+      </form>
+
+      <p class="extra">
+        Don’t have an account? <a href="sign up.html" class="btn">Sign Up</a>
+      </p>
+    </div>
+  </main>
+
+  <footer>
+    <p>© 2025 Job Junction. All rights reserved.</p>
+  </footer>
+</body>
+</html>

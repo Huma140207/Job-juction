@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Job Junction - Jobs</title>
+  <style>
+  {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  line-height: 1.6;
+  color: #333;
+}
+
+/* Navbar */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 10%;
+  background: #f5f7f8;
+  color: #130101;
+}
+@import url('https://fonts.googleapis.com/css2?family=Lobster+Two:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+  font-family: "Lobster Two", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+}
+
+.nav-links li {
+  margin: 0 15px;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: #120101;
+  transition: 0.3s;
+}
+
+.nav-links a:hover {
+  color: #ffcc00;
+}
+
+/* Buttons */
+.btn {
+  background: #ffcc00;
+  color: #333;
+  padding: 10px 20px;
+  border-radius: 5px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+
+
+.btn:hover {
+  background: #ffaa00;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  background: #f9f9f9;
+  color: #333;
+  line-height: 1.6;
+}
+
+header {
+  background: #0077cc;
+  color: #fff;
+  text-align: center;
+  padding: 20px 10px;
+}
+
+header h1 {
+  font-size: 2rem;
+}
+
+main {
+  max-width: 1000px;
+  margin: 30px auto;
+  padding: 0 20px;
+}
+
+.job-list {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+}
+
+.job-card {
+  background: #fff;
+  border-radius: 8px;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  transition: transform 0.2s ease;
+}
+
+.job-card:hover {
+  transform: translateY(-5px);
+}
+
+.job-card h2 {
+  color: #0077cc;
+  margin-bottom: 10px;
+}
+
+.job-card p {
+  margin-bottom: 15px;
+}
+
+.job-card a {
+  display: inline-block;
+  padding: 8px 15px;
+  background: #0077cc;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+.job-card a:hover {
+  background: #005fa3;
+}
+
+
+
+  </style>
+</head>
+<body>
+
+    <header>
+    <nav class="navbar">
+      <div class="logo">Job Juntion</div>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li> &nbsp; &nbsp; &nbsp; &nbsp;
+        <li><a href="about.html">About</a></li> &nbsp; &nbsp; &nbsp; &nbsp;
+        <li><a href="job.html">Job</a></li> &nbsp; &nbsp; &nbsp; &nbsp;
+        <li><a href="consulting.html">Consulting</a></li> &nbsp; &nbsp; &nbsp; &nbsp;
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+      
+      <p><a href="sign in.html" class="btn">Sign In</a>&nbsp;&nbsp;&nbsp;<a href="get started.html" class="btn">Get Started</a></p>
+
+    </nav>
+  </header>
+
+  <header>
+    <h1>Current Openings</h1>
+  </header>
+
+  <main>
+    <section class="job-list">
+
+      <div class="job-card">
+        <h2>Frontend Developer</h2>
+        <p>We’re looking for a skilled frontend developer proficient in HTML, CSS, and JavaScript frameworks.</p>
+        <a href="#">Apply Now</a>
+      </div>
+
+      <div class="job-card">
+        <h2>Backend Developer</h2>
+        <p>Join our backend team to build scalable APIs and database solutions with Node.js and SQL.</p>
+        <a href="#">Apply Now</a>
+      </div>
+
+      <div class="job-card">
+        <h2>UI/UX Designer</h2>
+        <p>We need a creative UI/UX designer to craft engaging and user-friendly digital experiences.</p>
+        <a href="#">Apply Now</a>
+      </div>
+
+      <div class="job-card">
+        <h2>Content Writer</h2>
+        <p>Create engaging blogs, guides, and website content to support our growing platform.</p>
+        <a href="#">Apply Now</a>
+      </div>
+
+      <div class="job-card">
+        <h2>Data Analyst</h2>
+        <p>Analyze data trends and provide insights to help improve decision making across teams.</p>
+        <a href="#">Apply Now</a>
+      </div>
+
+      <div class="job-card">
+        <h2>Project Manager</h2>
+        <p>Oversee project lifecycles, manage teams, and ensure timely delivery of milestones.</p>
+        <a href="#">Apply Now</a>
+      </div>
+
+      <div class="job-card">
+        <h2>QA Tester</h2>
+        <p>Ensure product quality by designing test cases, finding bugs, and improving performance.</p>
+        <a href="#">Apply Now</a>
+      </div>
+
+      <div class="job-card">
+        <h2>Marketing Specialist</h2>
+        <p>Plan and execute digital marketing campaigns to grow user engagement and brand awareness.</p>
+        <a href="#">Apply Now</a>
+      </div>
+
+      <div class="job-card">
+        <h2>HR Recruiter</h2>
+        <p>Source, interview, and onboard top talent to strengthen our organization.</p>
+        <a href="#">Apply Now</a>
+      </div>
+
+    </section>
+  </main>
+
+  
+</body>
+</html>
